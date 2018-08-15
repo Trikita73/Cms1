@@ -1,0 +1,16 @@
+{
+    "name": "acer/cms_1.loc",
+    "authors": [
+        {
+            "name": "Andrii Diachenko",
+            "email": "diachenkoandrii7@gmail.com"
+        }
+    ],
+		"require": {},
+		"autoload": {
+			"psr-4": {
+				"Engine\\": "engine",
+				"Engine\\DI\\": "engine/di"
+			}
+		}
+}

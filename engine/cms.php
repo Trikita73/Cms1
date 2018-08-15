@@ -9,6 +9,8 @@ class cms
 	 */
 	private $di;
 
+	public $router;
+
 	/**
 	 * cms constructor
 	 * @param $di 
@@ -16,13 +18,14 @@ class cms
 	public function __construct($di)
 	{
 		$this->di = $di;
+		$this->router = $this->di->get('router');
 	}
 
 	/**
-	 * run cms
+	 * Run cms
 	 */
 	public function run()
 	{
-
+			print_r($this->di);
 	}
 }
